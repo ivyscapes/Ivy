@@ -1,0 +1,7 @@
+{
+	"name": "demotivated",
+	"creator": "Ivy",
+	"version": "1.0",
+	"entry": "index.js",
+	"requires": ["KeybindFix"]
+}
