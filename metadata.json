@@ -4,5 +4,5 @@
 	"description": "No meow",
 	"version": "0.5",
 	"entry": "index.js",
-	"requires": ["KeybindFix", "Amaterasu"]
+	"requires": ["KeybindFix", "Amaterasu", "PogData"]
 }
