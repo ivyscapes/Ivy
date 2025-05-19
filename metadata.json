@@ -1,7 +1,8 @@
 {
-	"name": "demotivated",
+	"name": "[Ivy]",
 	"creator": "Ivy",
-	"version": "1.0",
+	"description": "No meow",
+	"version": "0.5",
 	"entry": "index.js",
-	"requires": ["KeybindFix"]
+	"requires": ["KeybindFix", "Amaterasu"]
 }
