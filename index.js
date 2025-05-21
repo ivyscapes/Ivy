@@ -1,3 +1,8 @@
+//MADE BY IVY
+//MADE BY IVY
+//MADE BY IVY
+//MADE BY IVY
+//MADE BY IVY
 import Config from "./config"
 
 const KeyBinding = Java.type("net.minecraft.client.settings.KeyBinding");
@@ -214,6 +219,7 @@ register("tick", () => {
         const currentZ = Player.getZ();
         player.func_70107_b(currentX + distanceX * 5, Player.getY(), currentZ + distanceZ * 5); // setPosition again
         repressMovementKeys();
+      ChatLib.chat(IVY_PREFIX + "&c MADE BY IVY");
     });
 });
 
