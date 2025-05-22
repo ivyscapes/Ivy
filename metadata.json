@@ -2,7 +2,7 @@
 	"name": "[Ivy]",
 	"creator": "Ivy",
 	"description": "No meow",
-	"version": "0.7",
+	"version": "1.0",
 	"entry": "index.js",
-	"requires": ["KeybindFix", "Amaterasu", "PogData"]
+	"requires": ["KeybindFix", "Amaterasu"]
 }
