@@ -1,5 +1,5 @@
-let toggled = false; 
 let lastUse = Date.now();
+import Config from "../config"
 const IVY_PREFIX = "&8[&cI&ev&ay&8] &f";
 const KeyBinding = Java.type("net.minecraft.client.settings.KeyBinding");
 function isWithinTolerance(n1, n2) {
@@ -60,18 +60,8 @@ function getIdOfBlock(x, y, z) {
 }
 
 
-register("command", () => {
-    toggled = !toggled; 
-    if (toggled) {
-        ChatLib.chat(IVY_PREFIX + "Barphase: &aON");
-    } else {
-        ChatLib.chat(IVY_PREFIX + "Barphase: &cOFF");
-    }
-}).setName("barphase");
-
-
 register("tick", () => {
-    if (!toggled) return; 
+    if (!Config().barphase) return; 
 
     if (Date.now() - lastUse < 50) return;
     lastUse = Date.now();
