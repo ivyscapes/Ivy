@@ -25,26 +25,20 @@ const defaultConf = new DefaultConfig("MeowAddons", "data/settings.json")
     }
     
 })
-.addButton({
+.addSwitch({
     category: "Dungeons",
     configName: "coreclip",
     title: "core clip",
     description: "clips into core",
     subcategory: "P3",
-    onClick() {
-        ChatLib.command(`coreclip`, true)
-    }
-    
 })
-.addButton({
+.addSwitch({
     category: "Dungeons",
     configName: "barphase",
     title: "Bar Phase",
     description: "Slip through the jail bars.",
     subcategory: "P3",
-    onClick() {
-        ChatLib.command(`barphase`, true)
-    }
+   
     
 })
 // Dev
