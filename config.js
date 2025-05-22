@@ -1,7 +1,7 @@
 // Make sure these go to the right directory 
 import Settings from "../Amaterasu/core/Settings"
 import DefaultConfig from "../Amaterasu/core/DefaultConfig"
-const defaultConf = new DefaultConfig("MeowAddons", "data/settings.json")
+const defaultConf = new DefaultConfig("Ivy", "data/settings.json")
 
 
 
