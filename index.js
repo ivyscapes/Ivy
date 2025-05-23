@@ -11,6 +11,8 @@ import Config from "./config"
 import "./features/barphase"
 import "./features/coreclip"
 import "./features/hclip"
+import "./features/instamid"
+
 ChatLib.chat(IVY_PREFIX + "Sucessfully loaded! Use /ivys or /purr to open the menu.");
 
 
