@@ -7,13 +7,6 @@ const defaultConf = new DefaultConfig("Ivy", "data/settings.json")
 
 // Dungeons - Mask notifications
 
-.addSwitch({
-    category: "Dungeons",
-    configName: "autoterms",
-    title: "AutoTerms",
-    description: "Automatically completes terminals for you (NOT DONE DONT USE)",
-    subcategory: "P3"
-})
 .addButton({
     category: "Dungeons",
     configName: "hclip",
@@ -38,6 +31,15 @@ const defaultConf = new DefaultConfig("Ivy", "data/settings.json")
     title: "Bar Phase",
     description: "Slip through the jail bars.",
     subcategory: "P3",
+   
+    
+})
+.addSwitch({
+    category: "Dungeons",
+    configName: "instamid",
+    title: "Insta Mid",
+    description: "instantly mids",
+    subcategory: "P4",
    
     
 })
