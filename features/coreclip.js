@@ -1,4 +1,4 @@
-
+import Config from "../config"
 
 const IVY_PREFIX = "&8[&cI&ev&ay&8] &f";
 
@@ -32,7 +32,7 @@ const trigger = register("tick", () => {
         handleKeys();
     }
 }).unregister();
-
+if (Config().coreclip) trigger.register;
 function isWithinTolerence(n1, n2) {
 	return Math.abs(n1 - n2) < 1e-4;
 };
