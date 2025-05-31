@@ -71,7 +71,7 @@ const defaultConf = new DefaultConfig("Ivy", "data/settings.json")
     subcategory: "Debug"
 })
 
-const config = new Settings("[Ivy]", defaultConf, "data/ColorScheme.json").setCommand("Ivy", ["ivys", "purr"])
+const config = new Settings("Ivy", defaultConf, "data/ColorScheme.json").setCommand("Ivy", ["ivys", "purr"])
 config
       .setSize(60,60)
       .apply()
